@@ -1,7 +1,5 @@
 import numpy as np
 import math
-import gurobipy
-
 
 def sign_measure(A, v):
     ''' Returns the product Av thresholded into a -1/+1 vector (ndarray).
